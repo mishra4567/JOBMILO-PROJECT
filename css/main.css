@@ -1,24 +1,30 @@
-
 *,
 *::after,
 *::before {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-.fill{
-  color: #000000; /* Fill color */
-/* Outline width */
-  -webkit-text-stroke-color: #00FF00; /* Outline color (green) */
+
+.fill {
+  color: #000000;
+  /* Fill color */
+  /* Outline width */
+  -webkit-text-stroke-color: #00FF00;
+  /* Outline color (green) */
   font-weight: 500;
 }
-  .out {
-  
-  -webkit-text-stroke-width: 1px; /* Outline width */
-  -webkit-text-stroke-color: #00FF00; /* Outline color (green) */
-   color: white;
+
+.out {
+
+  -webkit-text-stroke-width: 1px;
+  /* Outline width */
+  -webkit-text-stroke-color: #00FF00;
+  /* Outline color (green) */
+  color: white;
 }
+
 html {
   scroll-padding-top: 120px;
 }
@@ -38,29 +44,40 @@ a:hover {
   font-weight: 900;
 }
 
-input, textarea {
+input,
+textarea {
   border-radius: 0px;
   border: 1px solid #e7e7e7 !important;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   outline: 0px !important;
   -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
   border: 1px solid #92d35e !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #4b4b4b;
   font-weight: 900;
 }
 
-main{
+main {
   width: 100%;
   overflow-x: hidden;
 }
 
-h2, h3, h4, h5, h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-bottom: 20px;
 }
 
@@ -95,17 +112,19 @@ h1 {
   display: inline-block;
   color: #4b4b4b;
   padding: 15px 30px !important;
-  margin-right: 20px; 
+  margin-right: 20px;
 }
 
-.navbar li .nav-link:hover, .navbar li .active {
+.navbar li .nav-link:hover,
+.navbar li .active {
   font-weight: 500;
 }
 
-.navbar .navbar-toggler:focus, .navbar .navbar-toggler:hover {
+.navbar .navbar-toggler:focus,
+.navbar .navbar-toggler:hover {
   border: none;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   outline: none;
 }
 
@@ -238,10 +257,11 @@ ul.list-in-text li:before {
   border-radius: 12px;
 }
 
-.intro .intro-text .form input, .intro .intro-text .form select {
+.intro .intro-text .form input,
+.intro .intro-text .form select {
   border: none !important;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   outline: none;
 }
 
@@ -282,7 +302,7 @@ ul.list-in-text li:before {
 
 .intro .intro-text .follow img:hover {
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .intro .intro-img {
@@ -341,13 +361,13 @@ ul.list-in-text li:before {
   width: 100%;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 5px;
 }
 
@@ -365,7 +385,7 @@ ul.list-in-text li:before {
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .job-offers .image {
@@ -418,8 +438,8 @@ ul.list-in-text li:before {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding-top: 30px;
   border-top: 1px solid #e7e7e7;
 }
@@ -433,7 +453,7 @@ ul.list-in-text li:before {
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   bottom: -25px;
 }
 
@@ -451,10 +471,10 @@ ul.list-in-text li:before {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   gap: 40px;
   margin-top: 40px;
 }
@@ -476,7 +496,7 @@ ul.list-in-text li:before {
 
 .service .item:hover {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .update-news {
@@ -523,10 +543,10 @@ ul.list-in-text li:before {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   gap: 10px;
 }
 
@@ -544,8 +564,8 @@ ul.list-in-text li:before {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin-bottom: 30px;
 }
 
@@ -587,7 +607,8 @@ ul.list-in-text li:before {
   margin-top: 30px;
 }
 
-.contact-page #contactForm input, .contact-page #contactForm textarea {
+.contact-page #contactForm input,
+.contact-page #contactForm textarea {
   border-radius: 0px !important;
 }
 
@@ -643,7 +664,7 @@ ul.list-in-text li:before {
 
 .pagination .page-link:focus {
   -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 .post-meta {
@@ -764,13 +785,13 @@ ul.list-in-text li:before {
   width: 100%;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 #carouselsidebar .carousel-nav .nav-item {
@@ -787,7 +808,7 @@ ul.list-in-text li:before {
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 footer {
@@ -818,15 +839,17 @@ footer .footer-wrap .social-media img {
 
 footer .footer-wrap .social-media a img:hover {
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
 }
 
-footer .footer-wrap .company a:hover, footer .footer-wrap .useful-links a:hover {
+footer .footer-wrap .company a:hover,
+footer .footer-wrap .useful-links a:hover {
   color: black;
   font-weight: 600;
 }
 
-footer .footer-wrap .company p, footer .footer-wrap .useful-links p {
+footer .footer-wrap .company p,
+footer .footer-wrap .useful-links p {
   margin-bottom: 0.3em;
 }
 
@@ -853,18 +876,21 @@ footer .footer-wrap .newsletter #subscribe button {
   h1 {
     font-size: 3em;
   }
+
   .intro {
     width: 100vw;
     overflow: hidden;
     height: 100vh;
   }
+
   .intro .intro-text {
     position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
     z-index: 1;
   }
+
   .intro .intro-img {
     width: 80%;
     right: 0;
@@ -873,10 +899,12 @@ footer .footer-wrap .newsletter #subscribe button {
     right: -33%;
     z-index: 0;
   }
+
   .search-by h1 {
     display: inline-block;
     margin-right: 50px;
   }
+
   .search-by .carousel .carousel-item .card-item {
     padding: 30px 10px 20px 10px;
     display: inline-block;
@@ -886,61 +914,75 @@ footer .footer-wrap .newsletter #subscribe button {
     height: 160px;
     margin: 10px;
   }
+
   .search-by .carousel .carousel-item .photo {
     margin-bottom: 10px;
   }
+
   .search-by .carousel .carousel-item .photo img {
     height: 40px;
   }
+
   .search-by .carousel .carousel-item p {
     font-size: 0.9em;
   }
+
   .find-jobs {
     padding: 150px 0px;
   }
+
   .job-offers h1 {
     display: inline-block;
     margin-right: 50px;
   }
+
   .job-offers img {
     width: 100%;
   }
+
   .team .team-person {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     gap: 20px;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
   }
+
   .team .team-person .person {
     margin-bottom: 50px;
   }
+
   .team .team-person .person .photo img {
     width: 100%;
   }
+
   .team .team-person .person span {
     display: block;
   }
+
   .team .team-person .person .name {
     font-weight: 900;
     font-size: 1.2em;
     margin-top: 30px;
   }
+
   footer {
     text-align: left !important;
   }
+
   footer .footer-wrap {
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     gap: 30px;
   }
+
   footer .footer-wrap .about {
     width: 40%;
   }
@@ -950,79 +992,95 @@ footer .footer-wrap .newsletter #subscribe button {
   h1 {
     font-size: 4em;
   }
+
   .intro .intro-text {
     position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
     z-index: 5;
   }
+
   .intro .intro-text .form {
     padding: 15px 20px 15px 40px;
   }
+
   .intro .intro-text .form div {
     display: inline-block;
     margin-top: 0 !important;
   }
+
   .intro .intro-text .form .job-search {
     margin-right: 30px !important;
   }
+
   .intro .intro-text .form .location {
     position: relative;
     padding-left: 30px;
   }
+
   .intro .intro-text .form .location .search {
     margin-left: 30px;
     padding: 10px 25px !important;
     border-radius: 10px;
   }
+
   .intro .intro-text .form .location::before {
     content: '';
     position: absolute;
     left: -5px;
     top: 50%;
     -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
     width: 2px;
     height: 12px;
     background-color: #4b4b4b;
   }
+
   .intro .intro-img {
     position: absolute;
     bottom: 50%;
     -webkit-transform: translateY(50%);
-            transform: translateY(50%);
+    transform: translateY(50%);
     right: -200px;
     width: 60%;
   }
+
   .search-by .carousel .carousel-item .card-item {
     padding: 50px 20px 30px 20px;
     width: 170px;
     height: 220px;
     margin: 15px;
   }
+
   .search-by .carousel .carousel-item .photo {
     margin-bottom: 30px;
   }
+
   .search-by .carousel .carousel-item .photo img {
     height: 50px;
   }
+
   .search-by .carousel .carousel-item p {
     font-size: 1em;
   }
+
   .job-offers .image {
     margin-bottom: 0px;
   }
+
   .job-offers .offert-wrapper {
     position: relative;
     margin-bottom: 70px;
   }
+
   .job-offers .offert-wrapper .offert .offert-description {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     gap: 30px;
   }
+
   .job-offers .offert-wrapper .offert .offert-description .company-logo {
     line-height: 25px;
     min-width: 50px;
@@ -1031,17 +1089,20 @@ footer .footer-wrap .newsletter #subscribe button {
     padding: 10px;
     margin-bottom: 0px;
   }
+
   .update-news {
     padding: 60px;
     position: relative;
   }
+
   .update-news .news-form {
     position: absolute;
     right: 0;
     top: 50%;
     -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
   }
+
   .update-news .news-form input {
     width: 60%;
     margin-left: 50px;
@@ -1049,6 +1110,7 @@ footer .footer-wrap .newsletter #subscribe button {
     border: none !important;
     border-radius: 15px;
   }
+
   .update-news .news-form button {
     margin: 0px 0px 0px 30px;
     width: 20%;
@@ -1058,33 +1120,40 @@ footer .footer-wrap .newsletter #subscribe button {
     border: none;
     border-radius: 10px;
   }
+
   .find-jobs {
     padding: 200px 0px;
   }
+
   .all-posts .post-item {
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
+
   .all-posts .post-item .post-img {
     min-width: 300px;
     height: 300px;
     overflow: hidden;
     margin-right: 20px;
   }
+
   .all-posts .post-item .post-img img {
     height: 100%;
   }
+
   .all-posts .post-item .post-main-info .post-title {
     padding: 0px 0px 10px;
   }
+
   .all-posts .post-item .post-main-info .main-button {
     position: absolute;
     bottom: 0;
     margin: 0px;
     padding: 5px 15px;
   }
+
   .all-posts .post-item .post-main-info a {
     display: inline-block;
     margin-top: 10px;
@@ -1096,12 +1165,14 @@ footer .footer-wrap .newsletter #subscribe button {
     height: 90vh;
     overflow: visible;
   }
+
   .intro .intro-img {
     position: absolute;
     bottom: 50%;
     right: 0px;
     width: 55%;
   }
+
   .search-by .carousel .carousel-item .card-item {
     padding: 50px 20px 30px 20px;
     width: 200px;
@@ -1109,27 +1180,34 @@ footer .footer-wrap .newsletter #subscribe button {
     margin: 20px;
     border-radius: 20px;
   }
+
   .search-by .carousel .carousel-item .photo {
     margin-bottom: 50px;
   }
+
   .search-by .carousel .carousel-item .photo img {
     height: 60px;
   }
+
   .search-by .carousel .carousel-item p {
     font-size: 1em;
   }
+
   .find-jobs {
     padding: 300px 0px;
   }
+
   .job-offers .offert-wrapper {
     margin-bottom: 100px;
   }
+
   .job-offers .offert-wrapper .offert .offert-description {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     gap: 30px;
   }
+
   .job-offers .offert-wrapper .offert .offert-description .company-logo {
     line-height: 50px;
     min-width: 100px;
@@ -1138,6 +1216,7 @@ footer .footer-wrap .newsletter #subscribe button {
     padding: 20px;
     margin-bottom: 0px;
   }
+
   footer .footer-wrap .about {
     width: 20%;
   }
@@ -1148,24 +1227,29 @@ footer .footer-wrap .newsletter #subscribe button {
     height: 95vh;
     overflow: visible;
   }
+
   .intro .intro-img {
     position: absolute;
     bottom: 45%;
     right: 100px;
     width: 50%;
   }
+
   .search-by .carousel .carousel-item .card-item {
     padding: 50px 20px 30px 20px;
     width: 220px;
     height: 270px;
     margin: 30px;
   }
+
   .search-by .carousel .carousel-item .photo {
     margin-bottom: 50px;
   }
+
   .search-by .carousel .carousel-item .photo img {
     height: 70px;
   }
+
   .find-jobs {
     padding: 320px 0px;
   }
@@ -1176,6 +1260,7 @@ footer .footer-wrap .newsletter #subscribe button {
     height: 100vh;
     overflow: visible;
   }
+
   .intro .intro-img {
     position: absolute;
     bottom: 40%;
@@ -1183,7 +1268,7 @@ footer .footer-wrap .newsletter #subscribe button {
     width: 45%;
   }
 }
+
 /*# sourceMappingURL=main.css.map */
 
 /* Profile */
-
